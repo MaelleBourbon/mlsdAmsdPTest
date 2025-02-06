@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: rentalservice
-          image: maelle184/rental:1
+          image: maelle184/rental:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080

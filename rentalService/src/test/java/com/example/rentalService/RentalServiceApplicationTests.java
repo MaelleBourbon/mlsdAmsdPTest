@@ -14,7 +14,7 @@ class RentalServiceApplicationTests {
 
 	@Test
 	public void test1() {
-		Car car = new Car("11AA22", 1000);
+		Car car = new Car("11AA22", "ModelXYZ", 1000);
 		assertEquals(car.getPlateNumber(), "11AA22");
 	}
 
